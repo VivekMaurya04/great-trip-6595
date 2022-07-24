@@ -11,7 +11,7 @@ li, a, button{
     color:#edf0f1 ;
     text-decoration: none;
 }
-#top {
+.top {
     background-color:#111324;
     height: auto;
     display: flex;
@@ -20,8 +20,9 @@ li, a, button{
     gap: 20px;
     padding-top: 10px;
     padding-bottom: 10px;   
+    
  } 
- #top >div  {
+ .top >div  {
     display: flex;
     margin: auto;
     padding: 0px 20px;
@@ -116,6 +117,10 @@ button{
     color: white;
     border: 0px;
 }
+#h1{
+   margin-top: 40px;
+   text-align: center;
+}
  #mid{
     width: 100%;
     height: 350px;
@@ -143,6 +148,166 @@ button{
     padding-bottom: 40px;
  }
 
- 
 
+  #mid2{
+   width: 100%;
+   height: 500px;
+   margin-top: 60px;
+   display: flex;
+  }
+  #mid2 p{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   line-height: 25px;
+   color: rgba(43, 39, 39, 0.74);
+  }
+  #mid2 p a{
+   color: rgb(98, 77, 218);
+  }
+
+  #mid2 div{
+   height: 100%;
+   justify-content: space-between;
+   margin: auto;
+  }
+  #mid2> .dcr{
+   width: 50%;
+   padding: 0px 10px 0px 10px;
+   margin-right: 40px;
+   margin-left: 40px;
+  }
+  #mid2> #img1{
+   margin-left: 80px;
+  }
+  #img1{
+   width: 100%;
+   display: flex;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+  }
+  #img1 div{
+   height: 100%;
+   width: 100%;
+  }
+  #img1 div>img{
+   height: 100%;
+   width: 100%;
+  }
+  .h2{
+   margin-top: 60px;
+   text-align: center;
+  }
+   .h2>button{
+      margin-top: 30px;
+      background-color: rgb(118, 43, 238);
+      padding: 20px 45px;
+   }
+  #mid3{
+   width: 100%;
+   height: 650px;
+   margin-top: 60px;
+   display: flex;
+
+  }
+  #mid3::before{
+   content: "";
+   background: url('https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/home/sms-vector-bg-no-dots.svg?ver=298') no-repeat center center/cover;
+   position: absolute;
+   height: 100%;
+   width: 70%;
+   z-index: -1;
+   opacity: 0.89;
+}
+  #mid3 div{
+   width: 40%;
+   height: 100%;
+   justify-content: space-between;
+   margin: auto;
+  }
+ #mid3 >div>img{
+   height: 100%;
+   width: 100%;
+   margin-left: 60px;
+ }
+ #mid3 >div>h1{
+   padding-top: 20px;
+   font-size: 30px;
+ }
+ #h34{
+   margin-top: 80px;
+ }
+ #mid3 >div>p{
+   padding-top: 20px;
+   padding-right: 140px;
+   line-height: 30px;
+ }
+ #mid3 >div>button{
+   margin-top: 20px;
+   background-color: rgb(131, 58, 248);
+   padding: 20px 45px;
+   color: white;
+ } 
+ #di{
+   height: auto;
+   width: 90%;
+   justify-content: space-between;
+   align-items: center;
+   display: flex;
+   gap: 40px;      
+}
+ #di>div{
+   width: 50%;
+   height: auto;
+   margin-left: 20px;
+   gap: 30px;
+}
+#tt{
+   margin-top: 40px;
+   font-style: Graphic Web;
+   font-size: 18px;
+   padding: 0px 50px 0px 40px;
+   margin-right: 40px;
+}
+#tt p{
+  line-height: 30px;
+}
+#di>div> img{
+   width: 100%;
+   height: 100%;
+   margin-top: 60px;
+}
+#bottom{
+   background-color: rgb(64, 95, 231);
+   height: 600px;
+   width: 100%;
+   text-align: center;
+}
+#bottom >div{
+   width: 40%;
+   height: 70%;
+   justify-content: center;
+   margin: auto;
+   padding-top: 80px;
+}
+#bottom h1{
+    color: white;
+}
+#bottom+h1{
+   padding-top: 80px;
+   
+}
+#bottom >div >#p{
+   padding-top: 40px;
+   color: white;
+}
+#btn45{
+   width: 48%;
+   color:rgb(118, 43, 238);
+   background-color: white; 
+}
+#btn45:hover {
+   background-color: rgb(64, 95, 231);
+   border: 1px;
+   border: 1px solid white;
+}
 
