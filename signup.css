@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+body>div{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 20px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+
+}
+form {
+    width: 300px;
+    margin-left: 20px;
+    
+}
+
+form input{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    outline: none;
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    justify-content: center;
+    border: none;
+    background-color: rgb(118, 43, 238);
+    color:white;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
